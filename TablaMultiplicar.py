@@ -7,4 +7,4 @@ for n in numbers:
     print("Tabla del ", str(n))
     for i in numbers:
         pass
-        print(str(n), 'por', str(i), '=', str(n*i))
+        print(n, 'por', i, '=', n*i)
