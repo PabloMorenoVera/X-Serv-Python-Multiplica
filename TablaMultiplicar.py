@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 
 #Programa para imprimir la tabla de multiplica
-numbers = range(1,11)
-
-for n in numbers:
-    print("Tabla del ", str(n))
-    for i in numbers:
+for num1 in range(1,11):
+    print("\nTabla del ", num1)
+    for num2 in range(1,11):
         pass
-        print(n, 'por', i, '=', n*i)
+        print(num1, 'por', num2, '=', num1*num2)
